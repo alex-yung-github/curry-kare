@@ -40,7 +40,7 @@ export default function HomePage() {
                   asChild
                 >
                   <Link href="/locations" className="text-red-500">
-                    <MapPin className="h-5 w-5 mr-2 text-red-100" />
+                    <MapPin className="h-5 w-5 mr-2" />
                     Find Locations
                   </Link>
                 </Button>
