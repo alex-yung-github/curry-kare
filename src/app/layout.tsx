@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Curry Kare - Fast Food Curry Restaurant",
   description: "Curry Kare Curry - Build your perfect curry bowl with fresh ingredients. Fast, customizable, delicious curry takeout.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({

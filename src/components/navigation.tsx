@@ -5,6 +5,7 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Menu, ShoppingCart, User } from "lucide-react"
+import Image from "next/image"
 
 const navItems = [
   { name: "Home", href: "/" },
@@ -22,13 +23,16 @@ export function Navigation() {
     <nav className="bg-white shadow-sm border-b sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
+            <Image
+              src="/curry_kare_logo.jpg"
+              alt="Curry Kare Logo"
+              width={40}
+              height={40}
+              className="h-10 w-10 rounded-full"
+            />
             <div className="text-2xl font-bold text-orange-600">
               Curry Kare
-            </div>
-            <div className="text-sm text-orange-500 hidden sm:block">
-              Curry Kare Curry
             </div>
           </Link>
 

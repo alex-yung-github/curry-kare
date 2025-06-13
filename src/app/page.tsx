@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { MapPin, Clock, ShoppingCart, Utensils, Users, Star } from "lucide-react"
+import Image from "next/image"
 
 export default function HomePage() {
   return (
@@ -17,9 +18,6 @@ export default function HomePage() {
             <div className="text-center lg:text-left">
               <h1 className="text-5xl lg:text-7xl font-bold mb-6">
                 <span className="block">Curry Kare</span>
-                <span className="block text-2xl lg:text-4xl text-orange-200 font-normal">
-                  Curry Kare Curry
-                </span>
               </h1>
               <p className="text-xl lg:text-2xl mb-8 text-orange-100">
                 Build your perfect curry bowl, your way. Fresh ingredients, bold flavors, fast service.
