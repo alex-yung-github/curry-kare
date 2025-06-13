@@ -38,7 +38,7 @@ export default function HomePage() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-white text-white hover:bg-white hover:text-orange-600 text-lg px-8 py-4 h-auto"
+                  className="border-white hover:bg-orange-50 hover:text-orange-600 text-lg px-8 py-4 h-auto"
                   asChild
                 >
                   <Link href="/locations" className="text-red-500">
